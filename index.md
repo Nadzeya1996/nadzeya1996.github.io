@@ -13,8 +13,8 @@ employee:
     first_name: "Надежда"
     last_name: "Ерёмина"
     personal_link:
-        display_name: nadyayaromina.github.io
-        link: https://nadyayaromina.github.io/
+        display_name: nadzeya1996.github.io
+        link: https://nadzeya1996.github.io/
     email:
         display_name: yaromina.n.y@gmail.com
         link: mailto:yaromina.n.y@gmail.com
