@@ -258,6 +258,35 @@ hr {
   }
 }
 
+// References
+.references__list {
+  counter-reset: articles;
+  display: grid;
+  @extend %list-item-fs;
+  grid-template-columns: auto;
+  margin-top: 5px;
+  row-gap: 5px;
+
+  &_item {
+    counter-increment: articles;
+    padding-left: 30px;
+    position: relative;
+
+    &::before {
+      color: $color-gray;
+      content: "\5b" counter(articles) "\5d";
+      left: 0;
+      position: absolute;
+    }
+  }
+
+  &_person {
+    color: $color-gray;
+    font-weight: bold;
+    @extend %font-family-Raleway;
+  }
+}
+
 // Company
 .company {
   &__description {

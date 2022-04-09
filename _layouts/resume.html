@@ -257,6 +257,20 @@
               </ol>
             </section>
           {% endif %}
+          {% if page.employee.sections.references %}
+            <section class="section" aria-labelledby="references">
+              <h2 class="section__title" id="references">References</h2>
+              <ol class="references__list">
+                {% for reference in page.employee.sections.references %}
+                  <li class="references__list_item">
+                    <span class="references__list_person">{{reference.person}}</span>
+                    <span class="references__list_position">{{reference.position}}</span>
+                    <a class="link" href="mailto:{{reference.email}}">{{reference.email}}</a>
+                  </li>
+                {% endfor %}
+              </ol>
+            </section>
+          {% endif %}
         </div>
       </main>
     </div>

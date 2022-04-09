@@ -176,4 +176,14 @@ employee:
               description: "ПА ОБСЕ (благодарность)"
             - year: 2015
               description: "\"SOS детские деревни, Беларусь\" (благодарность) "
+        references:
+            - person: Ms. Veranika Haidukevich
+              position: Head of the Center for Swedish Studies
+              email: veronikagaidukevich@yahoo.com
+            - person: Ms. Björn Fleishmann
+              position: Professor of the Swedish Language, Author
+              email: bjornfleischmann@hotmail.com
+            - person: Mrs. Deidre Leask
+              position: from Restorative Justice Council of London
+              email: leaskfleming@gmail.com
 ---
