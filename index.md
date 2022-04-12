@@ -1,17 +1,16 @@
 ---
 layout: resume
-title: "Надежда Ерёмина"
+title: "Nadzeya Yaromina"
 favicon: "assets/icons/favicon.ico"
 meta:
     description: >-
-        Всем привет! Меня зовут Надя Ерёмина.
-        Я переводчик с английского и шведского.
+        Hello! I'm Nadzeya, I'm a translator/interpreter with 2 working languages - English and Swedish.
     robots:
         - index
         - follow
 employee:
-    first_name: "Надежда"
-    last_name: "Ерёмина"
+    first_name: "Nadzeya"
+    last_name: "Yaromina"
     personal_link:
         display_name: nadzeya1996.github.io
         link: https://nadzeya1996.github.io/
@@ -25,21 +24,21 @@ employee:
         education:
             schools:
                 - graduated:
-                    schoolName: "Минский государственный лингвистический университет"
-                    degree: "Выпускница (специалист)"
+                    schoolName: "Misk State Linguistic University"
+                    degree: "Bachelor degree"
                     date: 2019-07-31
-                    location: "Минск, Беларусь"
+                    location: "Minsk, Belarus"
                   subjects:
-                    - Современные иностранные языки (перевод)
-                    - Лингвист-переводчик со знанием двух иностранных языков (английский/шведский)
-                    - Специальный (научно-технический перевод)
-                    - Синхронный перевод
-                    - Последовательный перевод
-                    - Письменный перевод (научно-технических текстов и бизнес-документации)
-                    - Английский язык
-                    - Шведский язык
-                    - Лингвистика
-                    - Страноведение и регионоведение
+                    - Modern foreign languages (translation/interpreting) 
+                    - Translator / interpreter of two foreign languages (English / Swedish) 
+                    - Field translation (scientific-technical documentation) 
+                    - Simultaneous interpreting  
+                    - Consecutive interpreting 
+                    - Translation (scientific-technical documentation and business documentary)
+                    - English 
+                    - Swedish 
+                    - Linguistics 
+                    - Country and Regional studies 
         links:
             - resource: "Facebook://"
               display_name: nadya.yeriomina
@@ -51,131 +50,140 @@ employee:
               display_name: "@NadyaYeriomina"
               link: https://twitter.com/NadyaYeriomina
         skills:
-            - category: Языковые навыки
+            - category: Language proficiency 
               category_sets:
-                - title: "Proficiency, родной язык"
+                - title: "Proficiency, mother tongue"
                   items:
-                    - Русский язык
-                    - Белорусский язык
+                    - Russian 
+                    - Belarussian 
                 - title: "Advanced, C1"
                   items:
-                    - Английский язык
-                    - Шведский язык
+                    - English
+                    - Swedish
                 - title: "Intermediate, B2"
                   items:
-                    - Французский язык
-            - category: Уверенный пользователь ПК
+                    - French 
+            - category: Computer literate
               category_sets:
-                - title: "Ознакомлена с"
+                - title: "Familiar with"
                   items:
                     - Microsoft Office products
                     - SmartCAT
                     - Linguee
                     - Internet
         experience:
-            - company: "Центр международных шведских исследований"
+            - company: "FutoNota.se, ILKA AS"
               position:
-                - Преподаватель шведского языка
+                - BD Manager (Sweden)
+              date_from: 2022-01-12
+              location: Stockholm, Sweden
+            - company: "Centre for Swedish Studies, Minsk"
+              position:
+                - Swedish Language Teacher
               date_from: 2020-11-01
-              location: Минск, Беларусь
-            - company: ЧП "Минское областное бюро переводов"
+              location: Minsk, Belarus
+            - company: Minsk Regional Translation Agency 
               position:
-                - Штатный устный / письменный переводчик (английский/шведский)
+                - Certified interpreter/translator (Swedish, English, French) 
               date_from: 2019-01-14
               date_to: 2020-10-02
-              location: Минск, Беларусь
+              location: Minsk, Belarus 
               achievements:
-                - "Нотариальный переводчик \"Минская городская нотариальная контора\" английского, шведского, французского, белорусского и русского языков"
-            - company: Стажировка в "Международном центре шведских исследований"
+                - "Certified translator (notarized translation) \"Minsk City Notary Chamber\" English, Swedish, French, Russian and Belarussian"
+            - company: Internship in "Centre for Swedish Studies"
               position:
-                - Стажер
+                - Intern
               date_from: 2018-07-01
               date_to: 2018-12-31
-              location: Минск, Беларусь
+              location: Minsk, Belarus
               achievements:
-                - "Перевод статей для публикации"
-            - company: Стажировка при УВКБ ООН
+                - "Translation of articles for further publication (letter of recommendation)"
+            - company: Internship at UNHCR Department 
               position:
-                - Стажер
+                - Intern
               date_from: 2017-09-01
               date_to: 2019-07-01
-              location: Минск, Беларусь
+              location: Minsk, Belarus
               achievements:
-                - "Письменный перевод частей ежегодного отчета комиссии по Сирии и Афганистану"
-            - company: Волонтёрская работа
+                - "Translation of Commission Annual Report on Syria and Afghanistan (letter of recommendation)"
+            - company: Voluntary work 
               position:
-                - Устный/письменный переводчик
+                - Interpreter/translator
               date_from: 2015-09-01
               date_to: 2018-07-01
-              location: Минск, Беларусь
+              location: Minsk, Belarus 
               achievements:
-                - "Участие в качестве последовательного переводчика от «Лиги переводчиков МГЛУ» в различного рода международных конференциях/соревнованиях/событиях:"
-                - "Спортивные соревнования (\"Кубки по теннису\", \"Легкоатлетические соревнования\")"
-                - "Фестиваль медиации в Минске 2018"
-                - "ПА ОБСЕ 5–9 июля 2017 г."
-                - "Международные фестивали и концерты"
-                - "\"Конференция группы поддержки шёлкового пути ПА ОБСЕ\" 2019 г."
-            - company: Стажировка в агентстве переводов "Перекладна"
+                - "Consecutive interpreter at the «MSLU League of Translators/Interpreters»; participated in various international conferences/competitions/events:"
+                - "Sport competitions (\"Tennis Cups\", \"Field and track\") (letter of recommendation)"
+                - "Minsk Mediation Festival, 2018 (letter of recommendation)"
+                - "OSCE PA 5-9 July, 2017 (letter of recommendation)"
+                - "International Festivals and Concerts"
+                - "\"OSCE PA, Silk Road Support Group Conference\" 2019 (letter of recommendation)"
+            - company: Translation Agency "Perakladna", Internship 
               position:
-                - Переводчик
+                - Translator
               date_from: 2015-09-01
               date_to: 2016-07-01
-              location: Минск, Беларусь
-            - company: Международной студенческой организации "AIESEC"
+              location: Minsk, Belarus
+            - company: International Students Organization "AIESEC"
               position:
-                - Преподаватель английского/менеджер
+                - English Language Teacher / Manager 
               date_from: 2015-09-01
               date_to: 2016-07-01
-              location: Минск, Беларусь
+              location: Minsk, Belarus
               achievements:
-                - "Участие в программах обмена \"AIESEC\" (международная молодёжная организация, действующая в 126 странах мира)"
-                - "Преподавание английского языка детям в Грузии и Польше."
-                - "Осуществление отбора/приёма иностранных студентов для прохождения стажировок в Беларуси (2016 г)"
-            - company: Организация «SOS детские деревни, Беларусь» 
+                - "Students Exchange Programs \"AIESEC\" (international youth organization, acting in 126 countries)"
+                - "English Language Teacher for Children (kindergarten / school age) in Georgia and Poland"
+                - "Selection of candidates for participation in Belarusian-based programs, managerial work (2016)"
+            - company: Organization «SOS Children Villages, Belarus"
               position:
-                - Переводчик-волонтёр
+                - Translator
               date_from: 2015-09-01
               date_to: 2015-07-01
-              location: Минск, Беларусь
+              location: Minsk, Belarus 
               achievements:
-                - "Перевод материалов для размещения в СМИ, перевод информации для зарубежных партнёров"
+                - "Translation of articles for further publication, translation of stories for international partners"
         research:
-            - place: "МГЛУ"
+            - place: "MSLU"
               date_from: 2015-12-01
               date_to: 2019-07-01
-              location: "Минск, Беларусь"
-              description: "Участие в ежегодных днях науки МГЛУ. Публикации в сборниках научных выступлений студентов-магистрантов и преподавателей по политологии, философии, психологии и переводу с 2015–2019 гг."
+              location: "Minsk, Belarus"
+              description: "Participationa in annual Days of Science in MSLU. My works were published in Collection of Students and Teachers Essays in the following subjects: political and social sciences, philosophy and translation, 2015-2019."
         achievements:
+            - year: 2022
+              description: "\"Simultaneous interpreting (3rd degree)\" online course SPBU"
             - year: 2021
-              description: "\"Синхронный перевод (вторая ступень)\" онлайн-курс от СПбГУ"
+              description: "\"Conference for Swedish Teachers, 7-9 October, Tallinn \" Sverigekontakt"
             - year: 2021
-              description: "\"Межкультурная коммуникация и перевод\", онлайн-курс \"Национальная платформа открытого образования\","
+              description: "\"Simultaneous interpreting (2nd degree)\" online course SPBU"
+            - year: 2021
+              description: "\"Intercultural Communication / Translation \", online course \"National Open Education Platform\","
             - year: 2020
-              description: "Британский Совет, тестирование на уровень английского языка (IELTS сертификат, уровень С1)"
+              description: "British Council, English Proficiency Test (IELTS Certificate (Academic), C1)"
             - year: 2019
-              description: "Третий иностранный язык (французский) на кафедре третьего иностранного в МГЛУ"
+              description: "Third Foreign Language (French) at the Department of Third Foreign Language, MSLU"
             - year: 2019
-              description: "Онлайн курс для преподавателей шведского языка за рубежом от Шведского института"
+              description: "Digital course for Swedish Language Teachers Abroad – 3-6 August 2020, SI"
             - year: 2019
-              description: "УВКБ ООН (сертификат-рекомендация)"
+              description: "UNHCR, Letter of Recommendation"
             - year: 2019
-              description: "Посольство Пакистана в РБ (благодарность)"
+              description: "Pakistan Ambassy in Belarus (Letter of Appreciation)"
             - year: 2018
-              description: "Образовательная поездка в Стокгольм с целью повышения языковой компетенции от Шведского института"
+              description: "Educational Trip to Stockholm aimed at better language acquisition, SI"
             - year: 2018
-              description: "Gothenburg University, Минск (сертификат об участии в исследовании)"
+              description: "Gothenburg University, Minsk (certificate of participation in a research)"
             - year: 2018
-              description: "2-е место в конкурсе на \"Лучший перевод прозы\", ПФ МГЛУ"
+              description: "2nd place, translator competition \"Best Prose Translation\", Translator/Interpreter Department, MSLU"
             - year: 2018
-              description: "Минский фестиваль медиации (благодарность)"
+              description: "Minsk Mediation Festival (Letter of Appreciation)"
             - year: 2017
-              description: "Летние языковые курсы в Швеции (Hola folkhögskola)"
+              description: "Sommarkurser (Hola folkhögskola)"
             - year: 2017
-              description: "Центр шведский исследований (благодарность/рекомендация)"
+              description: "Centre for Swedish Studies (Letter of Appreciation / Recommendation)"
             - year: 2017
-              description: "ПА ОБСЕ (благодарность)"
+              description: "OSCE PA, Letter of Recommendation"
             - year: 2015
-              description: "\"SOS детские деревни, Беларусь\" (благодарность) "
+              description: "\"SOS Children Villages, Belarus \" (Letter of Appreciation) "
         references:
             - person: Ms. Veranika Haidukevich
               position: Head of the Center for Swedish Studies

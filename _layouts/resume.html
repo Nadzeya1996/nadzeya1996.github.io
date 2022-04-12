@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="{{ site.lang | default: "en-US" }}">
+<html dir="ltr" lang="{{ site.lang | default: "en-GB" }}">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover">
     <meta charset="utf-8">
@@ -49,7 +49,7 @@
         <div class="employee-about">
           {% if page.employee.sections.education %}
             <section class="section" aria-labelledby="education">
-              <h2 class="section__title" id="education">Образование</h2>
+              <h2 class="section__title" id="education">Education</h2>
               <dl class="section__list">
                 {% for school in page.employee.sections.education.schools %}
                   <div class="school section__list_item">
@@ -92,7 +92,7 @@
           {% endif %}
           {% if page.employee.sections.links %}
             <section class="section" aria-labelledby="links">
-              <h2 class="section__title" id="links">Ссылки</h2>
+              <h2 class="section__title" id="links">Links</h2>
               <div class="links section-additional-data">
                 <ul class="links__list section-additional-data__list">
                   {% for link in page.employee.sections.links %}
@@ -107,7 +107,7 @@
           {% endif %}
           {% if page.employee.sections.skills %}
             <section class="section" aria-labelledby="skills">
-              <h2 class="section__title" id="skills">Навыки</h2>
+              <h2 class="section__title" id="skills">Skills</h2>
               <dl class="section__list">
                 {% for skill in page.employee.sections.skills %}
                   <div class="section__list_item">
@@ -141,11 +141,25 @@
               </dl>
             </section>
           {% endif %}
+          {% if page.employee.sections.references %}
+            <section class="section" aria-labelledby="references">
+              <h2 class="section__title" id="references">References</h2>
+              <ol class="references__list">
+                {% for reference in page.employee.sections.references %}
+                  <li class="references__list_item">
+                    <span class="references__list_person">{{reference.person}}</span>
+                    <span class="references__list_position">{{reference.position}}</span>
+                    <a class="link" href="mailto:{{reference.email}}">{{reference.email}}</a>
+                  </li>
+                {% endfor %}
+              </ol>
+            </section>
+          {% endif %}
         </div>
         <div class="employee-expirience">
           {% if page.employee.sections.experience %}
             <section class="section" aria-labelledby="experience">
-              <h2 class="section__title" id="experience">Опыт работы. Стажировки</h2>
+              <h2 class="section__title" id="experience">Experience. Internship</h2>
               <dl class="section__list">
                 {% for company in page.employee.sections.experience %}
                   <div class="company section__list_item">
@@ -165,7 +179,7 @@
                             {% if company.date_to %}
                               &#8211;&nbsp;<time class="time" datetime="{{ company.date_to }}">{{ company.date_to | date: "%Y" }}</time>
                             {% else %}
-                              &#8211;&nbsp;<span>Настоящее время</span>
+                              &#8211;&nbsp;<span>Present</span>
                             {% endif %}
                           {% endif %}
                           {% if company.date_from and company.location %}
@@ -193,7 +207,7 @@
           {% endif %}
           {% if page.employee.sections.research %}
             <section class="section" aria-labelledby="research">
-              <h2 class="section__title" id="research">Научная деятельность</h2>
+              <h2 class="section__title" id="research">Scientific activity</h2>
               <dl class="section__list">
                 {% for research in page.employee.sections.research %}
                   <div class="section__list_item">
@@ -238,7 +252,7 @@
           {% endif %}
           {% if page.employee.sections.achievements %}
             <section class="section" aria-labelledby="achievements">
-              <h2 class="section__title" id="achievements">Курсы, повышение квалификации, достижения</h2>
+              <h2 class="section__title" id="achievements">Further training courses, achievements</h2>
               <dl class="achievements__list">
                 {% for achievement in page.employee.sections.achievements %}
                   <dt class="achievements__list_year">{{ achievement.year }}</dt>
@@ -253,20 +267,6 @@
               <ol class="articles__list">
                 {% for article in page.employee.sections.articles %}
                   <li class="articles__list_item">{{article}}</li>
-                {% endfor %}
-              </ol>
-            </section>
-          {% endif %}
-          {% if page.employee.sections.references %}
-            <section class="section" aria-labelledby="references">
-              <h2 class="section__title" id="references">References</h2>
-              <ol class="references__list">
-                {% for reference in page.employee.sections.references %}
-                  <li class="references__list_item">
-                    <span class="references__list_person">{{reference.person}}</span>
-                    <span class="references__list_position">{{reference.position}}</span>
-                    <a class="link" href="mailto:{{reference.email}}">{{reference.email}}</a>
-                  </li>
                 {% endfor %}
               </ol>
             </section>
