@@ -24,6 +24,13 @@ employee:
         education:
             schools:
                 - graduated:
+                    schoolName: "Saint-Petersburg State University"
+                    degree: "Master degree"
+                    date: 2023-07-31
+                    location: "Saint-Petersburg, Russia"
+                  subjects:
+                    - Simultaneous Translation (English)
+                - graduated:
                     schoolName: "Misk State Linguistic University"
                     degree: "Bachelor degree"
                     date: 2019-07-31
@@ -76,7 +83,15 @@ employee:
               position:
                 - BD Manager (Sweden)
               date_from: 2022-01-12
+              date_to: 2022-01-12
               location: Stockholm, Sweden
+            - company: "Freelance translator / interpreter"
+              position:
+                - Freelancer
+              date_from: 2019-01-01
+              location: Minsk, Belarus
+              achievements:
+                - Translation agencies in Minsk (“ALPHA TRANSLATION”, “TRANSLATION STUDIO”, “MOLFAR”, “PERAKLADKOM”, “PEREVEDIBAY”, “INOPEREVOD”)
             - company: "Centre for Swedish Studies, Minsk"
               position:
                 - Swedish Language Teacher
@@ -144,18 +159,33 @@ employee:
               achievements:
                 - "Translation of articles for further publication, translation of stories for international partners"
         research:
+            - place: "SPbU"
+              date_from: 2022-01-01
+              date_to: 2023-12-31
+              location: "Saint-Petersburg, Russia"
+              description: "Dissertation on the topic: \"Discursive features and features of the translation of prepositive and postpositive attributive phrases in English-language media\", 2022-2023."
             - place: "MSLU"
               date_from: 2015-12-01
               date_to: 2019-07-01
               location: "Minsk, Belarus"
               description: "Participationa in annual Days of Science in MSLU. My works were published in Collection of Students and Teachers Essays in the following subjects: political and social sciences, philosophy and translation, 2015-2019."
         achievements:
+            - year: 2024
+              description: "\"Simultaneous translation and intercultural communication\" (4th degree) distance course at St. Petersburg State University"
+            - year: 2024
+              description: "Language classes with native speakers on the EnglishTutor platform from the British Council in order to improve language skills (level assessment C1+)"
             - year: 2022
-              description: "\"Simultaneous interpreting (3rd degree)\" online course SPBU"
+              description: "\"Simultaneous translation and intercultural communication\" (3rd degree) distance course at St. Petersburg State University"
+            - year: 2022
+              description: "Swedish Language Teachers' Conference, August Stockholm from SI"
+            - year: 2022
+              description: "Swedish Language Teachers' Conference, October Kaunas from Sverigekontakt"
+            - year: 2022
+              description: "\"Simultaneous interpreting (3rd degree)\" online course SPbU"
             - year: 2021
               description: "\"Conference for Swedish Teachers, 7-9 October, Tallinn \" Sverigekontakt"
             - year: 2021
-              description: "\"Simultaneous interpreting (2nd degree)\" online course SPBU"
+              description: "\"Simultaneous interpreting (2nd degree)\" online course SPbU"
             - year: 2021
               description: "\"Intercultural Communication / Translation \", online course \"National Open Education Platform\","
             - year: 2020

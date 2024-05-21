@@ -175,11 +175,15 @@
                       {% if company.date_from or company.location %}
                         <div class="company__description_period section-value__time-and-location">
                           {% if company.date_from %}
-                            <time class="time" datetime="{{ company.date_from }}">{{ company.date_from | date: "%Y" }}</time>
-                            {% if company.date_to %}
-                              &#8211;&nbsp;<time class="time" datetime="{{ company.date_to }}">{{ company.date_to | date: "%Y" }}</time>
+                            {% if company.date_to and company.date_from == company.date_to %}
+                              <time class="time" datetime="{{ company.date_from }}">{{ company.date_from | date: "%Y" }}</time>
                             {% else %}
-                              &#8211;&nbsp;<span>Present</span>
+                              <time class="time" datetime="{{ company.date_from }}">{{ company.date_from | date: "%Y" }}</time>
+                              {% if company.date_to %}
+                                &#8211;&nbsp;<time class="time" datetime="{{ company.date_to }}">{{ company.date_to | date: "%Y" }}</time>
+                              {% else %}
+                                &#8211;&nbsp;<span>Present</span>
+                              {% endif %}
                             {% endif %}
                           {% endif %}
                           {% if company.date_from and company.location %}
