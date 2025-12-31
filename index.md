@@ -79,6 +79,11 @@ employee:
                     - Linguee
                     - Internet
         experience:
+            - company: SFTUE "Belvneshpromservice"
+              position:
+                - Translator/interpreter (interpreting and translation services, i.e. translation, simultaneous and consecutive interpreting, escort of foreign delegations, completion of various director’s tasks)
+              date_from: 2025-08-06
+              location: Minsk, Belarus
             - company: "FutoNota.se, ILKA AS"
               position:
                 - BD Manager (Sweden)
